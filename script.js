@@ -64,7 +64,7 @@ function renderContacts(contactsToRender = contacts) {
                   <div class="contact-name">
                       <div class="avatar">${contact.name.charAt(0)}</div>
                       <div class="contact-info">
-                          <div class="font-medium">${contact.name}</div>
+                          <div>${contact.name}</div>
                       </div>
                   </div>
               </td>

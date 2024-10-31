@@ -55,7 +55,6 @@ input {
   border: 1px solid #e5e7eb;
   border-radius: 6px;
   font-size: 0.875rem;
-  transition: border-color 0.15s ease;
 }
 
 input:focus {
@@ -70,7 +69,6 @@ button {
   border-radius: 6px;
   cursor: pointer;
   font-size: 0.875rem;
-  transition: all 0.15s ease;
 }
 
 .primary-button {
@@ -108,7 +106,6 @@ button {
   position: absolute;
   left: 12px;
   top: 50%;
-  transform: translateY(-50%);
   color: #9ca3af;
   width: 16px;
   height: 16px;
@@ -124,7 +121,6 @@ button {
 /* Table Styles */
 .contacts-table {
   width: 100%;
-  border-collapse: collapse;
 }
 
 .contacts-table th {
@@ -142,7 +138,6 @@ button {
 }
 
 .contact-row {
-  transition: background-color 0.15s ease;
 }
 
 .contact-row:hover {
